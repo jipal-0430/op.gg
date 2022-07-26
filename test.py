@@ -18,7 +18,7 @@ FORTRESS = ['Azir','Heimerdinger','Singed','Gangplank','Teemo'] #5
 TYPE = [ASSASSIN, SKIRMISHER, JUGGERNAUT, DIVER, BURST, BATTLEMAGE, ARTILLERY, INFIGHTER, KITER, ENCHANTER, CATCHER, VANGUARD, WARDEN, HYBRID, FORTRESS]
 TOP = ['원딜 분쇄기','믹서기','레이드 보스','공방일체','핵폭탄','대장군','대륙간 탄도미사일','히트맨','스나이퍼','어머니','제압자','돌격대장','장판파', '스페셜리스트', '요새']
 MIDDLE =['기동형 암살자', '전투형 암살자', '돌격형 전사', '기동형 전사', '집중형 마법사', '광역형 마법사', '견재형 마법사', '기동형 원딜', '견재형 원딜', '강화형 서폿', '포획형 서폿', '공격형 탱커', '수비형 탱커', '하이브리드', '장악자']
-BOTTOM = ['손가락 차이','Science','뚜벅이','자살특공대','CC셔틀','','유리물총','빠른 숟가락','긴 숟가락','혜지','Tool','전방 샌드백','후방 샌드백', '반푼이', '방구석 여포']
+BOTTOM = ['손가락 차이','Science','뚜벅이','자살특공대','CC셔틀','쫄따구','유리물총','빠른 숟가락','긴 숟가락','혜지','Tool','전방 샌드백','후방 샌드백', '반푼이', '방구석 여포']
 count_type = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 print('닉네임을 입력해주세요 > ', end='')
@@ -75,14 +75,3 @@ elif win_rate >= 45:
      print(MIDDLE[max_index])
 else:
      print(BOTTOM[max_index])
-
-
-
-""""
-if tier == '상위':
-     print('대마법사')
-elif tier == '중간':
-     print('메이지')
-else:
-     print('궁싸개')
-"""
